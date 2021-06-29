@@ -1,7 +1,7 @@
 function contactComponet(el) {
   const componentEl = document.createElement("div");
   componentEl.innerHTML = ` <section class="container__formulario">
-    <<h2 class="container__formulario-title">Escribime</h2>
+    <h2 class="container__formulario-title">Contacto</h2>
     <form class="container__form" action="">
         <label for="">
             <p class="form-title">Nombre</p>

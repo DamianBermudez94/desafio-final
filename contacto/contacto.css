@@ -23,14 +23,16 @@ body {
 
 /*---Responsive menu---*/
 @media (min-width: 960px) {
-  .header {
-    width: 100%;
-    height: 906px;
+  body {
     background: linear-gradient(
       107.17deg,
       #408195 29.35%,
       rgba(0, 210, 135, 0.8) 78.73%
     );
+  }
+  .header {
+    width: 100%;
+    height: 50px;
   }
   .btn-menu {
     display: none;
@@ -137,13 +139,18 @@ body {
 /*---Responsive Formulario---*/
 
 @media (min-width: 960px) {
+  .form-container {
+    padding: 50px;
+    height: 700px;
+  }
   .container__formulario {
+    padding: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   .container__formulario .container__form {
     margin: 0;
-    padding: 50px;
+    padding: 0;
   }
   .container__formulario-title {
     margin-left: 90px;
