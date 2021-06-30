@@ -35,40 +35,45 @@ body {
   .btn-menu {
     display: none;
   }
+  .container__header-title {
+    padding: 5px;
+  }
   .container__header {
-    padding: 30px;
-    border: none;
+    padding: 15px;
+    margin: 0;
   }
   .container__header .container__menu {
-    height: 50px;
-    position: absolute;
+    position: initial;
     top: 0;
     left: 0;
-    margin: 0;
-    padding: 0;
+    width: 49%;
+    height: 100px;
     background-color: initial;
+    color: #fafafa;
+    margin: 0;
+    padding: 20px;
   }
-  .container__menu .container__menu-link {
+  .container__header .container__menu .container__menu-link {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: initial;
-    margin-left: 15px;
-    padding: 15px;
+
+    padding: 0;
   }
+
   .container__menu-link .link-menu {
     font-size: 24px;
     color: #fafafa;
     text-decoration: none;
     margin: 0;
-    padding: 10px;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
   }
-  .container__welcome {
-    height: 80px;
-    display: flex;
-    align-items: center;
-    margin: 150px 50px;
-    padding: 0;
+  .container__welcome .container__welcome-title {
+    color: #fafafa;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
   }
 }
 .btn-menu {
@@ -113,7 +118,7 @@ body {
 
 .my-projects {
   padding: 20px;
-  height: 500px;
+  height: 600px;
 }
 
 .portfolio-content {
@@ -141,17 +146,22 @@ body {
   margin: 0;
   padding: 15px;
   color: #fafafa;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
 }
 .portfolio-card-text {
   font-size: 18px;
   text-align: center;
   margin: 0 auto;
   color: #fafafa;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
 }
 
 /*--- Responsive ---*/
 @media (min-width: 720px) {
   .portfolio-content {
+    height: 450px;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -188,6 +198,7 @@ body {
   color: #fafafa;
   display: block;
   margin: 0 6px;
+  font-family: "Poppins", sans-serif;
 }
 .cards-redes {
   margin: 5px;

@@ -41,39 +41,46 @@ body {
     display: none;
   }
   .container__header {
-    padding: 30px;
+    padding: 15px;
   }
   .container__header .container__menu {
-    position: absolute;
+    position: initial;
     top: 0;
     left: 0;
+    width: 49%;
+    height: 100px;
+    background-color: initial;
+    color: #fafafa;
     margin: 0;
     padding: 0;
-    background-color: initial;
   }
-  .container__menu .container__menu-link {
+  .container__header .container__menu .container__menu-link {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: initial;
-    margin-left: 15px;
-    padding: 15px;
+    margin: 0;
+    padding: 20px;
   }
+
   .container__menu-link .link-menu {
     font-size: 24px;
     color: #fafafa;
     text-decoration: none;
     margin: 0;
-    padding: 10px;
+    padding: 15px;
   }
   .container__welcome {
     display: flex;
     align-items: center;
-    margin: 150px 50px;
+    margin: 0;
     padding: 0;
   }
-  .container__welcome-tile {
-    padding: 0;
+
+  .container__welcome .container__welcome-title {
+    color: #fafafa;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
   }
 }
 .btn-menu {
@@ -106,6 +113,7 @@ body {
   text-decoration: none;
   font-size: 48px;
   padding: 58px 66px;
+  font-family: "Poppins", sans-serif;
 }
 
 .my-projects {
@@ -114,7 +122,7 @@ body {
 .container__welcome {
   padding: 25px;
 }
-.container__welcome-tile {
+.container__welcome-title {
   margin: 0;
   padding: 10px;
   color: #fff;
@@ -143,6 +151,7 @@ body {
   text-align: center;
   font-size: 30px;
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 .portfolio-card-text {
   padding: 10px;
@@ -150,13 +159,14 @@ body {
   font-size: 18px;
   text-align: center;
   margin: 0 auto;
+  font-family: "Poppins", sans-serif;
 }
 .portfolio-card-link {
   font-size: 24px;
   color: #fc6f50;
   text-decoration: none;
   cursor: pointer;
-
+  font-family: "Poppins", sans-serif;
   display: block;
   text-align: center;
 }
@@ -200,6 +210,7 @@ body {
   color: #fafafa;
   display: block;
   margin: 0 6px;
+  font-family: "Poppins", sans-serif;
 }
 .cards-redes {
   margin: 5px;

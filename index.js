@@ -17,6 +17,7 @@ btnMenu.addEventListener("click", function () {
     activador = true;
   }
 });
+
 function main() {
   contactComponet(document.querySelector(".form-container"));
   contacto();

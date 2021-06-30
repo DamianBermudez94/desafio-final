@@ -29,39 +29,45 @@ body {
   .btn-menu {
     display: none;
   }
-  .container__menu-logo {
-    padding: 5px;
-    margin: 0;
-  }
-  .container__header {
-    padding: 8px;
-  }
 
+  .container__header {
+    padding: 10px;
+  }
   .container__header .container__menu {
-    position: absolute;
+    position: initial;
     top: 0;
     left: 0;
+    width: 49%;
+    height: 100px;
+    background-color: initial;
+    color: #fafafa;
     margin: 0;
     padding: 0;
-    background-color: initial;
   }
-  .container__menu .container__menu-link {
+  .container__header .container__menu .container__menu-link {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    flex-direction: inherit;
-
-    margin: 0;
-    padding: 28px;
+    flex-direction: initial;
+    padding: 25px;
   }
+
   .container__menu-link .link-menu {
     font-size: 24px;
     color: #fafafa;
     text-decoration: none;
     margin: 0;
-    padding: 10px;
+    padding: 15px;
+  }
+  .container__welcome {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin: 150px 50px;
+    padding: 0;
   }
 }
+
 .btn-menu {
   font-size: 32px;
   border: none;
@@ -103,6 +109,7 @@ body {
   color: #fff;
   font-size: 48px;
   margin: 11px;
+  font-family: "Montserrat", sans-serif;
 }
 .container__welcome-parrafo {
   font-size: 32px;
@@ -125,12 +132,14 @@ body {
   padding: 25px;
   font-size: 38px;
   color: #fff;
+  font-family: "Montserrat", sans-serif;
 }
 .container__sobre-mi-parrafo {
   padding: 38px;
   text-align: center;
   font-size: 18px;
   color: #fff;
+  font-family: "Poppins", sans-serif;
 }
 
 .container__sobre-mi-img {
@@ -175,6 +184,7 @@ body {
   font-size: 32px;
   margin-bottom: 50px;
   color: #2c2c2c;
+  font-family: "Montserrat", sans-serif;
 }
 .container__servicios-cards {
   display: grid;
@@ -194,6 +204,7 @@ body {
 .container__cards-title {
   font-size: 24px;
   color: #2c2c2c;
+  font-family: "Poppins", sans-serif;
 }
 .container__cards-parrafo {
   font-size: 16px;
@@ -215,11 +226,13 @@ body {
 }
 
 /*---Section Formulario---*/
-
+.form-container {
+  background-color: #161616;
+}
 .container__formulario {
-  height: 700px;
+  height: 100%;
   text-align: center;
-  background-color: #141414;
+
   margin: 0 auto;
 }
 
@@ -227,7 +240,7 @@ body {
   margin: 0;
   padding: 60px 52px;
   font-size: 32px;
-  color: #fafafa;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container__form {
@@ -237,6 +250,7 @@ body {
 .form-title {
   text-align: left;
   color: #fafafa;
+  font-family: "Poppins", sans-serif;
 }
 .label-input {
   min-width: 300px;
@@ -301,6 +315,7 @@ body {
   color: #fafafa;
   display: block;
   margin: 0 6px;
+  font-family: "Poppins", sans-serif;
 }
 .cards-redes {
   margin: 5px;
