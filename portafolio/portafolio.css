@@ -90,6 +90,7 @@ body {
   color: #fff;
   padding: 5px;
   margin-left: 25px;
+  cursor: pointer;
 }
 .container__menu {
   position: absolute;
@@ -199,9 +200,10 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 15px;
+  margin: 25px;
 }
 .footer-title {
-  margin: 0 40px;
+  margin: 40px;
   font-size: 31px;
   padding: 0;
 }
