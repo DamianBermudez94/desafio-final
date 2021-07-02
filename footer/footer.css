@@ -1,0 +1,66 @@
+/*---Seccion Footer ---*/
+
+.container__footer {
+  height: 498px;
+  background-color: #2c2c2c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container__redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  margin: 25px;
+}
+.footer-title {
+  margin: 40px;
+  font-size: 31px;
+  padding: 0;
+}
+.redes-sociales {
+  text-decoration: none;
+  color: #fafafa;
+  display: block;
+  margin: 0 6px;
+  font-family: "Poppins", sans-serif;
+}
+.cards-redes {
+  margin: 5px;
+
+  display: flex;
+  align-items: center;
+}
+.icon__redes {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+
+/*---Responsive Footer---*/
+
+@media (min-width: 960px) {
+  .container__footer {
+    height: 346px;
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container__redes {
+    display: flex;
+    align-items: flex-end;
+    padding: 50px;
+  }
+  .cards-redes {
+    margin: 5px;
+  }
+  .icon__redes {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+  }
+}
