@@ -46,9 +46,8 @@ function getWords() {
 
       fieldsCollections.forEach((x) => {
         let idEncontrado = buscarAsset(x.imagen, x.includes);
-        console.log("Hola Hola", idEncontrado);
+
         x.imagen = "https:" + idEncontrado.fields.file.url;
-        console.log("Hola", x);
       });
 
       return fieldsCollections;

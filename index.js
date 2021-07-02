@@ -1,5 +1,5 @@
 // Animacion del menu
-let btnMenu = document.querySelector("#btn-menu");
+/*let btnMenu = document.querySelector("#btn-menu");
 let menu = document.querySelector(".container__menu");
 
 let activador = true;
@@ -16,9 +16,12 @@ btnMenu.addEventListener("click", function () {
     menu.style.transition = "0.6s";
     activador = true;
   }
-});
+});*/
 
 function main() {
+  footerComponet(document.querySelector(".footer"));
+  headertComponet(document.querySelector(".header"));
+  menu();
   contactComponet(document.querySelector(".form-container"));
   contacto();
 }

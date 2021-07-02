@@ -70,6 +70,7 @@ function main() {
     for (const w of words) {
       addWords(w);
     }
+    menu();
   });
 }
 

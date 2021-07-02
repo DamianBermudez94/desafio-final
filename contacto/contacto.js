@@ -23,6 +23,7 @@ function contactComponet(el) {
      `;
 
   el.appendChild(componentEl);
+  console.log(componentEl);
 }
 async function postData(url = "", data = {}) {
   const response = await fetch(url, {
