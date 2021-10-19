@@ -68,6 +68,7 @@ function main() {
       addWords(w);
     }
   });
+  menu();
 }
 
 // EJECUCIÓN
